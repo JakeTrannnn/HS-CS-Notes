@@ -1,0 +1,25 @@
+Java.lang.String
+
+Constructors
+    Named the same as the class
+
+Strings are immutable
+Overloaded - Same name, different arguments
+Any new instances of an object use the keyword new and call the class Constructor
+Heap - where objects are stored
+Object variables are just pointers that point to the object
+
+Rectangle bob = new Rectangle(200, 100, 17, 5);
+Rectangle george = new Rectangle(500, 500);
+System.out.println(bob);
+System.out.println(george);
+Rectangle bob2 = bob;
+System.out.println(bob2);
+bob2.setSize(100, 100);
+System.out.println(bob2);
+System.out.println(bob);
+
+Rectangle george2 = new Rectangle(100, 100);
+
+Java.Lang does not need any import statements
+
