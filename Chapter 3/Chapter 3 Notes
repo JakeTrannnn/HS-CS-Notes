@@ -1,0 +1,36 @@
+Accessors - access values and have no side effects
+Mutators - change the values but don't return value
+
+Package groups together several methods with similar behaviors
+
+import org.junit.jupiter.api.Test;
+public class StringTest{
+    @Test
+    public void textIndexOf_characterFound() {
+        String testValue = "Today is Monday";
+        int expectedValue = 4;
+        int returnValue = testValue.indexOf("y");
+        Assertions.assertEquals(expectedValue, returnValue);
+    }
+}
+
+public static void main(String[] args) {
+    JFrame frame = new JFrame("Two Rectangles");
+    frame.setSize(400, 400);
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    RectangleComponent rc = new RectangleComponent();
+
+    frame.add(rc);
+
+    frame.setVisible(true);
+}
+
+public void paintComponent(Graphics g) {
+    Graphics g2 = (Graphics2D) g;
+    Ellipse2D.Double circle = new Ellipse2D.Double(50, 50, 50, 50);
+    g2.draw(circle);
+
+    Line2D.Double line = new Line2D.Double(70, 70, 100, 100);
+    g2.draw(line);
+
+}
