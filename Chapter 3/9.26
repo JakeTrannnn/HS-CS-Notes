@@ -1,0 +1,34 @@
+Encapsulation - Information Hiding
+Attributes - instance Variables, state - What it is
+
+class Clicker {
+    private int count;
+
+    public int getCount() {
+        return count;
+    }
+
+    public void click(){
+        count = count + 1;
+    }
+}
+
+class CounterApp {
+    public static void main(String[] args) {
+        Clicker click = new Clicker();
+        Clicker click2 = new Clicker();
+        click.click();
+        click.click();
+        click2.click();
+        System.out.println(click.getCount());
+        System.out.println(click2.getCount());
+    }
+}
+
+public class BankAccount {
+    private double balance;
+
+    public BankAccount(double balance) {
+        this.balance = balance;
+    }
+}
