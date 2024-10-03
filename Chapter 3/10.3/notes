@@ -1,0 +1,10 @@
+UML Diagram
+access specifier name: return type/data type
+
+Scope - where the variable can be found
+
+variables are stored on the stack
+Objects are stored on the heap
+
+Garbage collection frees up memory
+
