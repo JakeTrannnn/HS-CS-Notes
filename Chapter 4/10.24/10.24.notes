@@ -1,0 +1,21 @@
+PEMDAS
+    Parentheses
+    Exponent
+    Multiplication
+    Division with int - no remainder
+        Modulus get the remainder
+    Addition
+    Subtraction
+
+(a + b)/c
+
+Can come before or after the variable
+    --count
+        Subtact from count, then use int
+    count--
+        use count then sbtract 1
+
+To calculate exponents - 
+    Math.pow
+To calculate square roots - 
+    Math.sqrt

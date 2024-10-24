@@ -1,0 +1,7 @@
+integer whole number type 4 bytes
+byte is 8 bits
+char 1 byte
+short 2 bytes
+long 8 bytes
+double 8 bytes
+float 4 bytes
