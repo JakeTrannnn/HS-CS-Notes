@@ -1,0 +1,16 @@
+String methods
+isEmpty
+isBlank
+substring
+indexOf
+length
+split
+
+
+strings start at zero
+
+escape characters
+newline - \n
+tab - \t
+backslash - \\
+Double quote = \"
