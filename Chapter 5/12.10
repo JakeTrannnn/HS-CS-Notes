@@ -1,0 +1,66 @@
+public class MinMaxApp {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        double smallest = findMin(in);
+        in.next();
+        double largest = findMax(in);
+        System.out.printf("The smallest number is %f and the largest number is %f", smallest, largest);
+    }
+    private static double findMin(Scanner in) {
+        System.out.print("Enter in numbers or Q to quit: ");
+        if(in.hasNextDouble()) {
+            double smallest = in.nextDouble();
+        } else {
+            return 0;
+        }  
+        while(in.hasNextDouble()) {
+            double value = in.nextDouble();
+            if(value < smallest) {
+                smallest = value;
+            }
+        }
+        return smallest;
+    }
+    private static double findMax(Scanner in) {
+        System.out.print("Enter in numbers or Q to quit: ");
+        if(in.hasNextDouble()) {
+            double biggest = in.nextDouble();
+        } else {
+            return 0;
+        }  
+        while(in.hasNextDouble()) {
+            double value = in.nextDouble();
+            if(value > biggest) {
+                biggest = value;
+            }
+        }
+        return biggest;
+    }
+}
+
+public class AdjacentApp {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int input = 0;
+        System.out.println("Enter a number or q to quit: ");
+        while(in.hasNextInt) {
+            int previous = input;
+            input = in.nextInt();
+            if(previous == input) {
+                System.out.println("Duplicate Input");
+            }
+        }
+    }
+}
+
+public class PowersApp {
+    public static void main(String[] args) {
+        final int MAX_ROWS = 10;
+        final int MAX_COLUMNS = 4;
+
+        for(int i = 0; i <= MAX_COLUMNS; i++) {
+            System.out.printf("X^%d", i);
+        }
+        
+    }
+}
