@@ -1,0 +1,17 @@
+Define the Boolean operators: AND,
+OR, NOT, NAND, NOR and XOR
+
+What is logic?
+• Its how a machine will solve problems.
+• Machines (at basic level) do not understand
+semantics like humans – no grey areas.
+
+Possible real-world applications
+AND Fire alarm: Smoke (1) AND heat (1)
+OR Internal car light: Either door open (1)
+NOT Microwave will stop (0) if the door is open (1). Vice versa….
+NAND Security system is engaged up until both the correct code and ID
+are scanned, then it disengages.
+NOR Air conditioning: AC will only come on (1) if BOTH windows A and
+B are closed. (0)
+XOR 2 light switches in one corridor
