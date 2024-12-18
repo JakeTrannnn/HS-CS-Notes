@@ -1,0 +1,14 @@
+Explain how data is transmitted by
+packet switching
+
+Definitions
+Packet: A packet is the unit of data that is
+routed between an origin and a destination
+on the Internet or any other packet-switched
+network
+
+Packet switching: Packet-switching describes
+the type of network in which relatively small
+units of data called packets are routed
+through a network based on the destination
+address contained within each packet
